@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ==================== */
+.navbar {
+    background: rgb(60, 198, 229);
+    opacity: 1.3;
+    height: 100px;
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+section {
+    width: 100%;
+    min-height: 90vh;
+}
+
+.dropdown ul {
+    background: rgb(60, 198, 229);
+}
+
+.navbar-collapse {
+    background: rgb(60, 198, 229);
+}
+
+/* ================== */
+#home-page {
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* display: flex; */
+    text-align: center;  
+    height: 120vh;
+}
+
+#home-page h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    color: aliceblue;
+    -webkit-text-stroke: 2px rgb(60, 198, 229);
+}
+
+#home-page h2 {
+    font-size: 50px;
+    margin-top: 60px;
+    color: rgb(0, 0, 0);
+}
+
+#home-page #home-btn {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+    height: 80px;
+    width: 300px; 
+    border: 1px solid rgb(60, 198, 229);
+    border-radius: 50px;
+    outline: none;
+    padding: 20px;
+    color: rgb(56, 55, 55);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#second-page {
+    /* min-height: 70vh; */
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.second-box {
+    min-height: 50vh;
+    text-align: left;
+    color: black;
+    background: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+}
+.fl-flex{
+    text-align: left;
+    box-shadow: 2px 2px 2px 2px rgb(73, 72, 72);
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 150px;
+    background-color: #e5e5e5;
+}
+.flight-btn {
+
+    margin-top: 10px;
+
+    padding: 15px;
+    
+}
+.f-a{
+    color: rgb(137, 130, 130);
+    text-align: left;
+}
+.f-b{
+    font-weight: bold;
+    font-size: 20px;
+}
+.f-c{
+    font-size: 13px;
+}
+.flight-btn button{
+    width: 150px;
+    border-radius: 10px;
+    background: transparent;
+    height: 50px;
+    border: 2px solid rgb(60, 198, 229);
+}
+.f-part{
+    /* border: 1px solid black; */
+    width: 300px;
+    padding: 10px;
+}
+.fl-btn {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+#f1{
+    background-color: rgb(60, 198, 229);
+    color: white;
+}
+#ff{
+    width: 150px;
+    background-color: rgb(60, 198, 229);
+    color: white;
+    border-radius: 10px;
+
+
+}
+.fi-btn{
+    display: flex;
+    justify-content: center;
+}
+.fl-sec{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#third-page{
+    background: #e5e5e5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+ }
+ .card img{
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+ }
+ .card-body h2{
+    text-align: center;
+ }
+ #third-page.card{
+    padding: 10px;
+    margin-left: 120px;
+ }
+ #third-page h1{
+    display: flex;
+    text-align: center;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+ }
+ .thirdcontent{
+    padding: 0px;
+   
+ }
+ #thirdrdpgh1{
+    margin-bottom: 10px;
+    margin: 0;
+    border-bottom: 1px solid rgb(60, 198, 229);
+    text-align: center;
+}
+#third-page .topics{
+    margin-top: 150px;
+    
+}
+#third-page .topics .card{
+    border-radius: 10px;
+    
+}
+#thirdp{
+    padding-top: 10px;
+}
+.secondpart{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box{
+    align-items: center;
+}
+#box3{
+    background-color: rgb(60, 198, 229);
+    color: white;
+    font-size: 20px;
+    display: grid;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    height: 100px;
+}.b3{
+    grid-column: 3/5;
+    grid-row-start: 2/4;
+}
+.b0{
+    grid-column: span 2;
+}
+
+#f-side{
+    min-height: 80vh;
+    border: 1px solid black;
+    background-image: url(./images/side.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+#fh1{
+    margin-top: 40px;
+}
+#f-side h1{
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+#fourth-page {
+    padding: 10px;
+}
+.gridclass{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+#g3{
+    grid-column: span 2;
+    background-color: rgb(60, 198, 229);
+    columns: white;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    
+}
+.grid_item{
+    height: 200px;
+    /* width: 250px; */
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+}#g1{
+    background-image: url(./images/img5.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#g2{
+    background-image: url(./images/img2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#g4{
+    background-image: url(./images/img4.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+#g5{
+    background-image: url(./images/w5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#fifth-page{
+    min-height: 40vh;
+    padding: 20px;
+}
+.middle-btn{
+    height: 200px;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px rgb(40, 35, 35);
+    border: 1px solid rgb(209, 224, 227);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+#fifth-page #hotelbtn{
+    background-color: rgb(60, 198, 229);
+    color: #e5e5e5;
+}
+.middle-btn button{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px soli;
+    width: 150px;
+    border-radius: 10px;
+    background: transparent;
+
+}
+
+.card h2,h3{
+    text-align: left;
+}
+
+.card-img-top{
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#w1{
+    background-image: url(./images/w1.jpg);   
+}
+#w2{
+    background-image: url(./images/w2.jpg);   
+}
+#w3{
+    background-image: url(./images/w3.jpg);   
+}
+#w4{
+    background-image: url(./images/w4.jpg);   
+}
+#w5{
+    background-image: url(./images/w5.jpg);   
+}
+#w6{
+    background-image: url(./images/w2.jpg);   
+}
+#w7{
+    background-image: url(./images/w3.jpg);   
+}
+#w8{
+    background-image: url(./images/w4.jpg);   
+}
+#w9{
+    background-image: url(./images/w5.jpg);   
+}
+#lastpage{
+    min-height: 40vh;
+}
+.last{
+    border: 0px solid black;
+    min-height: 40vh;
+    display: flex;  
+    align-items: center;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.last img{
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.l-flex{
+    /* margin-left: 10px; */
+    height: 200px;
+   
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.mainlast{
+    padding: 10px;
+}
+.subflex p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.subflex{
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#footer{
+    min-height: 30vh;
+    background-color: rgb(60, 198, 229);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#sixth-page h2{
+ font-size: 25px;
+}
+#sixth-page h3{
+ font-size: 20px;
+}

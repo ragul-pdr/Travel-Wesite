@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel together</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="icon" href="./images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Travel Together</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span style="color: rgb(255, 255, 255)"
+            ><i class="fa fa-bars"></i
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tours
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Other State</a></li>
+                <li><a class="dropdown-item" href="#">Other Country</a></li>
+                <li><a class="dropdown-item" href="#">Under Water</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Flights
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Indigo</a></li>
+                <li><a class="dropdown-item" href="#">Air India</a></li>
+                <li><a class="dropdown-item" href="#">Ethihad</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hotel
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">4 Star</a></li>
+                <li><a class="dropdown-item" href="#">5 Star</a></li>
+                <li><a class="dropdown-item" href="#">7 Star</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <div class="back">
+        <img src="./images/background.jpg" alt="background">
+        <div class="home-page container-fluid">   
+            <div class="row">
+                <div class="col-12 ">
+                    <h1>Explore the world together</h1>
+
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12">
+                    <h2>Find awesome flights, hotel, tour, car and packages</h2>
+                    <input  type="text" placeholder="Search">
+                </div>
+            </div>
+        </div>
+      </div> -->
+    <!-- ============================================ -->
+    <section id="home-page">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h1>Explore the world together</h1>
+            <h2>Find awesome flights, hotel, tour, car and packages</h2>
+            <button id="home-btn">
+              <i class="fa fa-search"></i>&nbsp;Search
+            </button>
+          </div>
+        </div>
+        <div class="row" id="second-page">
+          <div class="second-box">
+            <div class="flight-btn">
+              <button style="color: black" class="fl-btn" id="f1">
+                &nbsp;<i style="color: black" class="fa-solid fa-plane"></i
+                >Filghts
+              </button>
+              <button class="fl-btn">
+                &nbsp;<i class="fa-solid fa-earth-americas"></i>Tours
+              </button>
+              <button class="fl-btn">
+                &nbsp;<i class="fa-solid fa-hotel"></i>Hotel
+              </button>
+            </div>
+            <div class="fl-sec row">
+              <div class="d-flex p-3 row">
+                <div class="f-part col-md-3 col-sm-12">
+                  <div class="fl-flex p-3">
+                    <p class="f-a">
+                      From&nbsp;<i class="fa fa-plane-departure"></i>
+                    </p>
+                    <p class="f-b">BANGLADESH</p>
+                    <p class="f-c">Hazrat Shahjalal International Airport</p>
+                  </div>
+                </div>
+                <div class="f-part col-md-3 col-sm-12">
+                  <div class="fl-flex p-3">
+                    <p class="f-a">
+                      To&nbsp;<i class="fa-solid fa-plane-arrival"></i>
+                    </p>
+                    <p class="f-b">CHINA</p>
+                    <p class="f-c">Jinan Yaoqiang International Airport</p>
+                  </div>
+                </div>
+                <div class="f-part col-md-3 col-sm-12">
+                  <div class="fl-flex p-3">
+                    <p class="f-a">Journey Date</p>
+                    <p class="f-b">
+                      18/11/2022&nbsp;<i class="fa-solid fa-calendar-days"></i>
+                    </p>
+                    <p class="f-c">Friday</p>
+                  </div>
+                </div>
+                <div class="f-part col-md-3 col-sm-12">
+                  <div class="fl-flex p-3">
+                    <p class="f-a">Passenger, Class</p>
+                    <p class="f-b">5 passenger</p>
+                    <p class="f-c">Business class</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="fi-btn">
+              <button class="fl-btn" id="ff">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =============================================== -->
+    <section id="third-page">
+      <div class="container">
+        <div class="row thirdcontent">
+          <div class="col-md-4">
+            <h1>Go beyond your</h1>
+            <h2 id="thirdrdpgh1">imagination</h2>
+            <p id="thirdp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <div class="row topics">
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="img-fluid"
+                    src="./images/airline.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <div class="card-title"><h2>Airlines</h2></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="img-fluid"
+                    src="./images/travels.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <div class="card-title"><h2>Travel</h2></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="img-fluid"
+                    src="./images/resorts.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <div class="card-title"><h2>Resorts</h2></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================================================== -->
+    <section id="fourth-page">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6" id="f-side">
+            <h1 id="fh1">Up to</h1>
+            <h1>50% off</h1>
+            <h1>Holyday package</h1>
+          </div>
+          <div class="col-md-6 col-12 gridclass my-3">
+            <div id="g1" class="grid_item"><h2>India</h2></div>
+            <div id="g2" class="grid_item"><h2>China</h2></div>
+            <div id="g3" class="grid_item">
+              <h2 style="font-size: 50px">Top destinations</h2>
+            </div>
+            <div id="g4" class="grid_item"><h2>Jappan</h2></div>
+            <div id="g5" class="grid_item"><h2>USA</h2></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============================================== -->
+    <section id="fifth-page">
+      <div class="container">
+        <div class="row">
+          <h1
+            style="color: rgb(60, 198, 229); margin-bottom: 30px"
+            class="text-center"
+          >
+            Our Best Deals
+          </h1>
+          <div class="middle-btn">
+            <button id="hotelbtn">Hotels</button>
+            <button>Tours</button>
+            <button>Visa Processing</button>
+            <button>Air Ticket</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =============================================== -->
+    <section id="sixth-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mt-3" style="width: 18rem">
+              <div class="card-img-top" id="w1">China</div>
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="fa-solid fa-location-dot"></i>&nbsp;Shandong Hotel,
+                  China
+                </h2>
+                <h3>$100<small>Price starts from</small></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mt-3" style="width: 18rem">
+              <div class="card-img-top" id="w2">Ingland</div>
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="fa-solid fa-location-dot"></i>&nbsp;Jipavu Hotel,
+                  Jappan
+                </h2>
+                <h3>$100<small>Price starts from</small></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mt-3" style="width: 18rem">
+              <div class="card-img-top" id="w3">Malasiya</div>
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="fa-solid fa-location-dot"></i>&nbsp;London Hotel,
+                  Hijith
+                </h2>
+                <h3>$100<small>Price starts from</small></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mt-3" style="width: 18rem">
+              <div class="card-img-top" id="w4">Jappan</div>
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="fa-solid fa-location-dot"></i>&nbsp;Rinaz Hotel,
+                  zhuru
+                </h2>
+                <h3>$100<small>Price starts from</small></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mt-3" style="width: 18rem">
+              <div class="card-img-top" id="w5">India</div>
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="fa-solid fa-location-dot"></i>&nbsp;Shandong Hotel,
+                  China
+                </h2>
+                <h3>$100<small>Price starts from</small></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mt-3" style="width: 18rem">
+              <div class="card-img-top" id="w6">Africa</div>
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="fa-solid fa-location-dot"></i>&nbsp;Shandong Hotel,
+                  China
+                </h2>
+                <h3>$100<small>Price starts from</small></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mt-3" style="width: 18rem">
+              <div class="card-img-top" id="w7">Switzerland</div>
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="fa-solid fa-location-dot"></i>&nbsp;Shandong Hotel,
+                  China
+                </h2>
+                <h3>$100<small>Price starts from</small></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mt-3" style="width: 18rem">
+              <div class="card-img-top" id="w8">Jammu</div>
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="fa-solid fa-location-dot"></i>&nbsp;Shandong Hotel,
+                  China
+                </h2>
+                <h3>$100<small>Price starts from</small></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mt-3" style="width: 18rem">
+              <div class="card-img-top" id="w9">Iland</div>
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="fa-solid fa-location-dot"></i>&nbsp;Shandong Hotel,
+                  China
+                </h2>
+                <h3>$100<small>Price starts from</small></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =============================================== -->
+    <section id="fifth-page">
+      <div class="container">
+        <div class="row">
+          <h1
+            style="color: rgb(60, 198, 229); margin-bottom: 30px"
+            class="text-center"
+          >
+            Our Special Tours
+          </h1>
+          <div class="middle-btn">
+            <button id="hotelbtn">Nepal</button>
+            <button>Malasiya</button>
+            <button>Indhonisiya</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =============================================== -->
+    <section id="lastpage">
+      <div class="container-fluid mainlast">
+        <div class="last row">
+          <div class="l-flex col-md-4 col-sm-12">
+            <div class="subflex">
+              <div>
+                <img class="img-fluid" src="./images/w1.jpg" alt="" />
+              </div>
+              <div>
+                <p style="text-align: left">
+                  Egypd tour Price <small> starts at $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="l-flex col-md-4 col-sm-12">
+            <div class="subflex">
+              <div>
+                <img class="img-fluid" src="./images/w2.jpg" alt="" />
+              </div>
+              <div>
+                <p style="text-align: left">
+                  Kilimanjaro tour Price <small>starts at $120</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="l-flex col-md-4 col-sm-12">
+            <div class="subflex">
+              <div>
+                <img class="img-fluid" src="./images/w3.jpg" alt="" />
+              </div>
+              <div>
+                <p style="text-align: left">
+                  Kathmundu tour Price <small>starts at $150</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =============================================== -->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h4>Copyright © 2022 Design & Developed by P2C.IT</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================================================== -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
